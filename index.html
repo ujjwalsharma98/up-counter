@@ -2,18 +2,21 @@
 <html>
 <head>
 	<title>Up Counter</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<link  rel="shortcut icon" type="image/x-icon" href="images/logo.png">
 </head>
 <body>
-	<div class="mainBox">
-  	<input type="text" name=""  class="writeHere"><br> 
-	<button onclick="startCounter()" id="button"> <b>start counter</b></button>
-    </div>
-	<div>
-		<p class=  "current" > 0 </p>
-		<p class=  "next" > 0 </p>
-    </div>
-    <script src="demo.js"></script>
+	<div id="upper-div">
+		<span> Enter here number from 0 to 10</span>
+		<input type="" name=""  class="writeHere"><br><br>
+		<button onclick="startCounter()">start counter</button>
+	</div>
+	<div id="counter-outerdiv">
+		<div id ="counter-innerdiv">
+			<p class=  "current" > 0 </p>
+			<p class=  "next" > 1 </p>
+		</div>
+	</div>
+	<script src="demo.js"></script>
 </body>
 </html>

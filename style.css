@@ -1,40 +1,79 @@
 body{
-    background: linear-gradient(rgb(47,150,163),rgb(48,62,143));
-    height: 100vh;
-    width: 100vw;
+	background-color: cyan;
+	margin: 19px;
 }
 
-.mainBox{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 150px;
+#upper-div{
+	display: flex;
+	justify-content: space-between;
+	height: 40px;
+	width: 100%;
+	background:linear-gradient(to right ,#58d1e4,#edc0f3);
+	padding-top: 70px;
+	padding-bottom:30px;
+	padding-right: 8px;
+	padding-left: 8px;
 }
 
-#button{
-    margin-top: 20px;
-    height: 5vh;
-    width: 10vw;
+span{
+	position: absolute;
+	top: 7%;
+	left: 31%;
+	font-size: 25px;
+	color: white;
+	letter-spacing: 3px;
+}
+input{
+	border-radius: 10px;
+	height: 30px;
+}
+button{
+	border-radius: 100px;
+	height: 30px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	box-shadow: 0px 0px 16px white;
+}
+#counter-outerdiv{
+	margin-top: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: dimgray;
+	width: 70%;
+	margin-left: 16%;
+}
+#counter-innerdiv{
+	margin-left: 45%;
+	height: 100px;
+	width: 100px;
+	position: relative;
+	overflow: hidden;
+
 }
 
-.writeHere{
-    padding: 5px;
-    background-color: white;
-    width: 30vw;
-    height: 3vh;
-}
-
-.next{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    cursor: pointer;
-    font-size: 34px;
-    height: 30vh;
-    justify-content: space-around;
-    color: white;  
+p{
+	text-align: center;
+	line-height: 80px;
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	background-color: white;
+	border-top: 2px solid black;
 }
 
 .current{
-    display: none;
+	box-shadow: 0px 0px 16px cyan;
+}
+.next{
+	position: absolute;
+	top: 100px;
+	box-shadow: 0px 0px 16px cyan;
+}
+
+
+.animate{
+	top: 0px;
+	transition: all 0.5s;
+	/*box-shadow: 0px 0px 16px cyan;*/
 }
