@@ -1,0 +1,40 @@
+body{
+    background: linear-gradient(rgb(47,150,163),rgb(48,62,143));
+    height: 100vh;
+    width: 100vw;
+}
+
+.mainBox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+#button{
+    margin-top: 20px;
+    height: 5vh;
+    width: 10vw;
+}
+
+.writeHere{
+    padding: 5px;
+    background-color: white;
+    width: 30vw;
+    height: 3vh;
+}
+
+.next{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    font-size: 34px;
+    height: 30vh;
+    justify-content: space-around;
+    color: white;  
+}
+
+.current{
+    display: none;
+}
